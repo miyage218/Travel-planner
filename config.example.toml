@@ -23,9 +23,9 @@ renotify_drop_pct = 5         # Aynı uçuşu, fiyat %5 daha düşerse yeniden b
 
 [countries]
 visa = []                     # Boş = hepsi. Ör: ["vizesiz", "kapida_vize", "e_vize"]
-regions = []                  # Ör: ["Avrupa", "Kafkasya", "Orta Doğu"]
+regions = ["Avrupa"]          # Boş = tüm bölgeler. Ör: ["Avrupa", "Kafkasya", "Orta Doğu"]
 include = []                  # Sadece bu ülke kodları
-exclude = []                  # Ör: ["UA", "SD", "YE"]
+exclude = ["UA", "CY"]        # Ukrayna: hava sahası kapalı; G. Kıbrıs: Türkiye'den uçuş yok
 
 [notify]
 console = true

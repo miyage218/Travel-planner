@@ -80,6 +80,8 @@ Tüm ülkeler × 52 hafta sonu taraması yaklaşık 240 rota × 16 ay-çifti ≈
 
 ### GitHub Actions (sunucu gerekmez)
 
+Varsayılan ayar (`config.example.toml`): İstanbul (İGA + Sabiha Gökçen) çıkışlı, sadece **Avrupa** ülkeleri (40 ülke, ~830 sorgu, ~4 dk).
+
 `.github/workflows/scan.yml` günde 2 kez tarama yapar ve fiyat geçmişini önbellekte saklar.
 Repo → Settings → Secrets and variables → Actions altında `TRAVELPAYOUTS_TOKEN` ve
 bildirim kanalınızın değişkenlerini secret olarak ekleyin. Ayarları `config.example.toml` üzerinden değiştirebilirsiniz.
