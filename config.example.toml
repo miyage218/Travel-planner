@@ -1,0 +1,32 @@
+# config.toml olarak kopyalayın. Gizli anahtarlar (token, şifre) ortam
+# değişkenlerinden okunur: TRAVELPAYOUTS_TOKEN, TELEGRAM_BOT_TOKEN,
+# TELEGRAM_CHAT_ID, NTFY_TOPIC, SMTP_HOST, SMTP_PORT, SMTP_USER,
+# SMTP_PASSWORD, EMAIL_TO
+
+provider = "travelpayouts"    # veya "mock" (API anahtarı olmadan deneme)
+db_path = "data/history.db"
+workers = 4
+
+[search]
+origins = ["IST"]             # IST = İstanbul (İGA + Sabiha Gökçen). Ör: ["IST", "ESB", "ADB"]
+weeks_ahead = 52              # Bugünden itibaren kaç hafta sonu taransın
+currency = "try"
+# max_transfers = 1           # 0 = sadece aktarmasız
+# max_price = 15000           # Bu fiyatın üstü asla bildirilmez
+
+[deals]
+min_discount_pct = 25         # Normal fiyattan en az %25 ucuzsa "fırsat"
+history_days = 90             # Normal fiyat = son 90 günün hafta sonu fiyatlarının medyanı
+min_samples = 6
+renotify_drop_pct = 5         # Aynı uçuşu, fiyat %5 daha düşerse yeniden bildir
+# always_notify_below = 3000  # Bu fiyatın altındaki her bilet fırsattır
+
+[countries]
+visa = []                     # Boş = hepsi. Ör: ["vizesiz", "kapida_vize", "e_vize"]
+regions = []                  # Ör: ["Avrupa", "Kafkasya", "Orta Doğu"]
+include = []                  # Sadece bu ülke kodları
+exclude = []                  # Ör: ["UA", "SD", "YE"]
+
+[notify]
+console = true
+ntfy_server = "https://ntfy.sh"

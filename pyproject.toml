@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "travel-planner"
+version = "0.1.0"
+description = "Türk pasaportuyla gidilebilecek ülkelere cuma-pazar uçak bileti fırsatı tarayıcısı"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.31"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+travel-planner = "travel_planner.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+travel_planner = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
