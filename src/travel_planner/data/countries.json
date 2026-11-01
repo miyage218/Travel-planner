@@ -1,0 +1,1829 @@
+{
+ "_comment": "Türk (umuma mahsus/bordo) pasaport için vize durumu. Kurallar sık değişir; seyahatten önce https://www.mfa.gov.tr adresinden teyit edin. Değerler: vizesiz, kapida_vize, e_vize, vizeli.",
+ "countries": [
+  {
+   "code": "AL",
+   "name": "Arnavutluk",
+   "region": "Avrupa",
+   "visa": "vizesiz",
+   "airports": [
+    "TIA"
+   ]
+  },
+  {
+   "code": "AT",
+   "name": "Avusturya",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "VIE"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "BY",
+   "name": "Belarus",
+   "region": "Avrupa",
+   "visa": "vizesiz",
+   "airports": [
+    "MSQ"
+   ]
+  },
+  {
+   "code": "BE",
+   "name": "Belçika",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "BRU"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "BA",
+   "name": "Bosna-Hersek",
+   "region": "Avrupa",
+   "visa": "vizesiz",
+   "airports": [
+    "SJJ"
+   ]
+  },
+  {
+   "code": "BG",
+   "name": "Bulgaristan",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "SOF"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "HR",
+   "name": "Hırvatistan",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "ZAG",
+    "DBV"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "CY",
+   "name": "Güney Kıbrıs",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "LCA"
+   ],
+   "note": "Türkiye'den doğrudan uçuş yok"
+  },
+  {
+   "code": "KKTC",
+   "name": "KKTC",
+   "region": "Avrupa",
+   "visa": "vizesiz",
+   "airports": [
+    "ECN"
+   ],
+   "note": "Kimlik kartı yeterli"
+  },
+  {
+   "code": "CZ",
+   "name": "Çekya",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "PRG"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "DK",
+   "name": "Danimarka",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "CPH"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "EE",
+   "name": "Estonya",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "TLL"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "FI",
+   "name": "Finlandiya",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "HEL"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "FR",
+   "name": "Fransa",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "PAR",
+    "NCE"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "DE",
+   "name": "Almanya",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "BER",
+    "FRA",
+    "MUC"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "GR",
+   "name": "Yunanistan",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "ATH",
+    "SKG"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "HU",
+   "name": "Macaristan",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "BUD"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "IS",
+   "name": "İzlanda",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "REK"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "IE",
+   "name": "İrlanda",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "DUB"
+   ]
+  },
+  {
+   "code": "IT",
+   "name": "İtalya",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "ROM",
+    "MIL"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "XK",
+   "name": "Kosova",
+   "region": "Avrupa",
+   "visa": "vizesiz",
+   "airports": [
+    "PRN"
+   ]
+  },
+  {
+   "code": "LV",
+   "name": "Letonya",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "RIX"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "LT",
+   "name": "Litvanya",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "VNO"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "LU",
+   "name": "Lüksemburg",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "LUX"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "MT",
+   "name": "Malta",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "MLA"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "MD",
+   "name": "Moldova",
+   "region": "Avrupa",
+   "visa": "vizesiz",
+   "airports": [
+    "RMO"
+   ]
+  },
+  {
+   "code": "ME",
+   "name": "Karadağ",
+   "region": "Avrupa",
+   "visa": "vizesiz",
+   "airports": [
+    "TGD",
+    "TIV"
+   ]
+  },
+  {
+   "code": "NL",
+   "name": "Hollanda",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "AMS"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "MK",
+   "name": "Kuzey Makedonya",
+   "region": "Avrupa",
+   "visa": "vizesiz",
+   "airports": [
+    "SKP",
+    "OHD"
+   ]
+  },
+  {
+   "code": "NO",
+   "name": "Norveç",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "OSL"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "PL",
+   "name": "Polonya",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "WAW",
+    "KRK"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "PT",
+   "name": "Portekiz",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "LIS"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "RO",
+   "name": "Romanya",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "BUH"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "RU",
+   "name": "Rusya",
+   "region": "Avrupa",
+   "visa": "vizesiz",
+   "airports": [
+    "MOW",
+    "LED"
+   ]
+  },
+  {
+   "code": "RS",
+   "name": "Sırbistan",
+   "region": "Avrupa",
+   "visa": "vizesiz",
+   "airports": [
+    "BEG"
+   ]
+  },
+  {
+   "code": "SK",
+   "name": "Slovakya",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "BTS"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "SI",
+   "name": "Slovenya",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "LJU"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "ES",
+   "name": "İspanya",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "MAD",
+    "BCN"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "SE",
+   "name": "İsveç",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "STO"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "CH",
+   "name": "İsviçre",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "ZRH",
+    "GVA"
+   ],
+   "note": "Schengen"
+  },
+  {
+   "code": "UA",
+   "name": "Ukrayna",
+   "region": "Avrupa",
+   "visa": "vizesiz",
+   "airports": [
+    "KBP"
+   ],
+   "note": "Hava sahası sivil uçuşlara kapalı olabilir"
+  },
+  {
+   "code": "GB",
+   "name": "Birleşik Krallık",
+   "region": "Avrupa",
+   "visa": "vizeli",
+   "airports": [
+    "LON"
+   ]
+  },
+  {
+   "code": "GE",
+   "name": "Gürcistan",
+   "region": "Kafkasya",
+   "visa": "vizesiz",
+   "airports": [
+    "TBS",
+    "BUS"
+   ],
+   "note": "Kimlik kartı yeterli"
+  },
+  {
+   "code": "AZ",
+   "name": "Azerbaycan",
+   "region": "Kafkasya",
+   "visa": "vizesiz",
+   "airports": [
+    "BAK"
+   ]
+  },
+  {
+   "code": "AM",
+   "name": "Ermenistan",
+   "region": "Kafkasya",
+   "visa": "e_vize",
+   "airports": [
+    "EVN"
+   ],
+   "note": "Kapıda vize de mümkün"
+  },
+  {
+   "code": "AF",
+   "name": "Afganistan",
+   "region": "Asya",
+   "visa": "vizeli",
+   "airports": [
+    "KBL"
+   ]
+  },
+  {
+   "code": "BH",
+   "name": "Bahreyn",
+   "region": "Orta Doğu",
+   "visa": "e_vize",
+   "airports": [
+    "BAH"
+   ]
+  },
+  {
+   "code": "BD",
+   "name": "Bangladeş",
+   "region": "Asya",
+   "visa": "kapida_vize",
+   "airports": [
+    "DAC"
+   ]
+  },
+  {
+   "code": "BT",
+   "name": "Butan",
+   "region": "Asya",
+   "visa": "e_vize",
+   "airports": [
+    "PBH"
+   ],
+   "note": "Acente üzerinden"
+  },
+  {
+   "code": "BN",
+   "name": "Brunei",
+   "region": "Asya",
+   "visa": "vizesiz",
+   "airports": [
+    "BWN"
+   ]
+  },
+  {
+   "code": "KH",
+   "name": "Kamboçya",
+   "region": "Asya",
+   "visa": "e_vize",
+   "airports": [
+    "PNH",
+    "REP"
+   ],
+   "note": "Kapıda vize de mümkün"
+  },
+  {
+   "code": "CN",
+   "name": "Çin",
+   "region": "Asya",
+   "visa": "vizeli",
+   "airports": [
+    "BJS",
+    "SHA"
+   ]
+  },
+  {
+   "code": "HK",
+   "name": "Hong Kong",
+   "region": "Asya",
+   "visa": "vizesiz",
+   "airports": [
+    "HKG"
+   ]
+  },
+  {
+   "code": "MO",
+   "name": "Makao",
+   "region": "Asya",
+   "visa": "vizesiz",
+   "airports": [
+    "MFM"
+   ]
+  },
+  {
+   "code": "IN",
+   "name": "Hindistan",
+   "region": "Asya",
+   "visa": "e_vize",
+   "airports": [
+    "DEL",
+    "BOM"
+   ]
+  },
+  {
+   "code": "ID",
+   "name": "Endonezya",
+   "region": "Asya",
+   "visa": "kapida_vize",
+   "airports": [
+    "DPS",
+    "JKT"
+   ],
+   "note": "e-VoA online alınabilir"
+  },
+  {
+   "code": "IR",
+   "name": "İran",
+   "region": "Orta Doğu",
+   "visa": "vizesiz",
+   "airports": [
+    "THR"
+   ]
+  },
+  {
+   "code": "IQ",
+   "name": "Irak",
+   "region": "Orta Doğu",
+   "visa": "kapida_vize",
+   "airports": [
+    "BGW",
+    "EBL"
+   ]
+  },
+  {
+   "code": "IL",
+   "name": "İsrail",
+   "region": "Orta Doğu",
+   "visa": "vizesiz",
+   "airports": [
+    "TLV"
+   ],
+   "note": "Türkiye-İsrail uçuşları askıda olabilir"
+  },
+  {
+   "code": "JP",
+   "name": "Japonya",
+   "region": "Asya",
+   "visa": "vizesiz",
+   "airports": [
+    "TYO",
+    "OSA"
+   ]
+  },
+  {
+   "code": "JO",
+   "name": "Ürdün",
+   "region": "Orta Doğu",
+   "visa": "vizesiz",
+   "airports": [
+    "AMM"
+   ]
+  },
+  {
+   "code": "KZ",
+   "name": "Kazakistan",
+   "region": "Asya",
+   "visa": "vizesiz",
+   "airports": [
+    "ALA",
+    "NQZ"
+   ]
+  },
+  {
+   "code": "KW",
+   "name": "Kuveyt",
+   "region": "Orta Doğu",
+   "visa": "e_vize",
+   "airports": [
+    "KWI"
+   ]
+  },
+  {
+   "code": "KG",
+   "name": "Kırgızistan",
+   "region": "Asya",
+   "visa": "vizesiz",
+   "airports": [
+    "FRU"
+   ]
+  },
+  {
+   "code": "LA",
+   "name": "Laos",
+   "region": "Asya",
+   "visa": "kapida_vize",
+   "airports": [
+    "VTE"
+   ]
+  },
+  {
+   "code": "LB",
+   "name": "Lübnan",
+   "region": "Orta Doğu",
+   "visa": "kapida_vize",
+   "airports": [
+    "BEY"
+   ]
+  },
+  {
+   "code": "MY",
+   "name": "Malezya",
+   "region": "Asya",
+   "visa": "vizesiz",
+   "airports": [
+    "KUL"
+   ]
+  },
+  {
+   "code": "MV",
+   "name": "Maldivler",
+   "region": "Asya",
+   "visa": "kapida_vize",
+   "airports": [
+    "MLE"
+   ]
+  },
+  {
+   "code": "MN",
+   "name": "Moğolistan",
+   "region": "Asya",
+   "visa": "vizesiz",
+   "airports": [
+    "ULN"
+   ]
+  },
+  {
+   "code": "MM",
+   "name": "Myanmar",
+   "region": "Asya",
+   "visa": "e_vize",
+   "airports": [
+    "RGN"
+   ]
+  },
+  {
+   "code": "NP",
+   "name": "Nepal",
+   "region": "Asya",
+   "visa": "kapida_vize",
+   "airports": [
+    "KTM"
+   ]
+  },
+  {
+   "code": "OM",
+   "name": "Umman",
+   "region": "Orta Doğu",
+   "visa": "vizesiz",
+   "airports": [
+    "MCT"
+   ]
+  },
+  {
+   "code": "PK",
+   "name": "Pakistan",
+   "region": "Asya",
+   "visa": "e_vize",
+   "airports": [
+    "ISB",
+    "KHI",
+    "LHE"
+   ]
+  },
+  {
+   "code": "PH",
+   "name": "Filipinler",
+   "region": "Asya",
+   "visa": "vizesiz",
+   "airports": [
+    "MNL"
+   ]
+  },
+  {
+   "code": "QA",
+   "name": "Katar",
+   "region": "Orta Doğu",
+   "visa": "vizesiz",
+   "airports": [
+    "DOH"
+   ]
+  },
+  {
+   "code": "SA",
+   "name": "Suudi Arabistan",
+   "region": "Orta Doğu",
+   "visa": "e_vize",
+   "airports": [
+    "RUH",
+    "JED"
+   ]
+  },
+  {
+   "code": "SG",
+   "name": "Singapur",
+   "region": "Asya",
+   "visa": "vizesiz",
+   "airports": [
+    "SIN"
+   ]
+  },
+  {
+   "code": "KR",
+   "name": "Güney Kore",
+   "region": "Asya",
+   "visa": "vizesiz",
+   "airports": [
+    "SEL"
+   ]
+  },
+  {
+   "code": "LK",
+   "name": "Sri Lanka",
+   "region": "Asya",
+   "visa": "e_vize",
+   "airports": [
+    "CMB"
+   ],
+   "note": "ETA"
+  },
+  {
+   "code": "SY",
+   "name": "Suriye",
+   "region": "Orta Doğu",
+   "visa": "vizeli",
+   "airports": [
+    "DAM"
+   ],
+   "note": "Güncel durumu teyit edin"
+  },
+  {
+   "code": "TW",
+   "name": "Tayvan",
+   "region": "Asya",
+   "visa": "e_vize",
+   "airports": [
+    "TPE"
+   ]
+  },
+  {
+   "code": "TJ",
+   "name": "Tacikistan",
+   "region": "Asya",
+   "visa": "e_vize",
+   "airports": [
+    "DYU"
+   ]
+  },
+  {
+   "code": "TH",
+   "name": "Tayland",
+   "region": "Asya",
+   "visa": "vizesiz",
+   "airports": [
+    "BKK",
+    "HKT"
+   ]
+  },
+  {
+   "code": "TL",
+   "name": "Doğu Timor",
+   "region": "Asya",
+   "visa": "kapida_vize",
+   "airports": [
+    "DIL"
+   ]
+  },
+  {
+   "code": "TM",
+   "name": "Türkmenistan",
+   "region": "Asya",
+   "visa": "vizeli",
+   "airports": [
+    "ASB"
+   ]
+  },
+  {
+   "code": "AE",
+   "name": "Birleşik Arap Emirlikleri",
+   "region": "Orta Doğu",
+   "visa": "e_vize",
+   "airports": [
+    "DXB",
+    "AUH"
+   ]
+  },
+  {
+   "code": "UZ",
+   "name": "Özbekistan",
+   "region": "Asya",
+   "visa": "vizesiz",
+   "airports": [
+    "TAS",
+    "SKD"
+   ]
+  },
+  {
+   "code": "VN",
+   "name": "Vietnam",
+   "region": "Asya",
+   "visa": "e_vize",
+   "airports": [
+    "SGN",
+    "HAN"
+   ]
+  },
+  {
+   "code": "YE",
+   "name": "Yemen",
+   "region": "Orta Doğu",
+   "visa": "vizeli",
+   "airports": [
+    "ADE"
+   ]
+  },
+  {
+   "code": "DZ",
+   "name": "Cezayir",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "ALG"
+   ]
+  },
+  {
+   "code": "AO",
+   "name": "Angola",
+   "region": "Afrika",
+   "visa": "vizesiz",
+   "airports": [
+    "LAD"
+   ]
+  },
+  {
+   "code": "BJ",
+   "name": "Benin",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "COO"
+   ]
+  },
+  {
+   "code": "BW",
+   "name": "Botsvana",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "GBE"
+   ]
+  },
+  {
+   "code": "BF",
+   "name": "Burkina Faso",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "OUA"
+   ]
+  },
+  {
+   "code": "BI",
+   "name": "Burundi",
+   "region": "Afrika",
+   "visa": "kapida_vize",
+   "airports": [
+    "BJM"
+   ]
+  },
+  {
+   "code": "CV",
+   "name": "Yeşil Burun Adaları",
+   "region": "Afrika",
+   "visa": "kapida_vize",
+   "airports": [
+    "RAI",
+    "SID"
+   ],
+   "note": "Önceden EASE kaydı"
+  },
+  {
+   "code": "CM",
+   "name": "Kamerun",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "DLA",
+    "NSI"
+   ]
+  },
+  {
+   "code": "CF",
+   "name": "Orta Afrika Cumhuriyeti",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "BGF"
+   ]
+  },
+  {
+   "code": "TD",
+   "name": "Çad",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "NDJ"
+   ]
+  },
+  {
+   "code": "KM",
+   "name": "Komorlar",
+   "region": "Afrika",
+   "visa": "kapida_vize",
+   "airports": [
+    "HAH"
+   ]
+  },
+  {
+   "code": "CG",
+   "name": "Kongo Cumhuriyeti",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "BZV"
+   ]
+  },
+  {
+   "code": "CD",
+   "name": "Kongo Demokratik Cumhuriyeti",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "FIH"
+   ]
+  },
+  {
+   "code": "DJ",
+   "name": "Cibuti",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "JIB"
+   ]
+  },
+  {
+   "code": "EG",
+   "name": "Mısır",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "CAI",
+    "HRG",
+    "SSH"
+   ],
+   "note": "Yaş grubuna göre değişebilir"
+  },
+  {
+   "code": "GQ",
+   "name": "Ekvator Ginesi",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "SSG"
+   ]
+  },
+  {
+   "code": "ER",
+   "name": "Eritre",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "ASM"
+   ]
+  },
+  {
+   "code": "SZ",
+   "name": "Esvatini",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "SHO"
+   ]
+  },
+  {
+   "code": "ET",
+   "name": "Etiyopya",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "ADD"
+   ]
+  },
+  {
+   "code": "GA",
+   "name": "Gabon",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "LBV"
+   ]
+  },
+  {
+   "code": "GM",
+   "name": "Gambiya",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "BJL"
+   ]
+  },
+  {
+   "code": "GH",
+   "name": "Gana",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "ACC"
+   ]
+  },
+  {
+   "code": "GN",
+   "name": "Gine",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "CKY"
+   ]
+  },
+  {
+   "code": "GW",
+   "name": "Gine-Bissau",
+   "region": "Afrika",
+   "visa": "kapida_vize",
+   "airports": [
+    "OXB"
+   ]
+  },
+  {
+   "code": "CI",
+   "name": "Fildişi Sahili",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "ABJ"
+   ]
+  },
+  {
+   "code": "KE",
+   "name": "Kenya",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "NBO",
+    "MBA"
+   ],
+   "note": "eTA"
+  },
+  {
+   "code": "LS",
+   "name": "Lesotho",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "MSU"
+   ]
+  },
+  {
+   "code": "LR",
+   "name": "Liberya",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "ROB"
+   ]
+  },
+  {
+   "code": "LY",
+   "name": "Libya",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "MJI"
+   ]
+  },
+  {
+   "code": "MG",
+   "name": "Madagaskar",
+   "region": "Afrika",
+   "visa": "kapida_vize",
+   "airports": [
+    "TNR"
+   ]
+  },
+  {
+   "code": "MW",
+   "name": "Malavi",
+   "region": "Afrika",
+   "visa": "kapida_vize",
+   "airports": [
+    "LLW"
+   ]
+  },
+  {
+   "code": "ML",
+   "name": "Mali",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "BKO"
+   ]
+  },
+  {
+   "code": "MR",
+   "name": "Moritanya",
+   "region": "Afrika",
+   "visa": "kapida_vize",
+   "airports": [
+    "NKC"
+   ]
+  },
+  {
+   "code": "MU",
+   "name": "Mauritius",
+   "region": "Afrika",
+   "visa": "vizesiz",
+   "airports": [
+    "MRU"
+   ]
+  },
+  {
+   "code": "MA",
+   "name": "Fas",
+   "region": "Afrika",
+   "visa": "vizesiz",
+   "airports": [
+    "CMN",
+    "RAK"
+   ]
+  },
+  {
+   "code": "MZ",
+   "name": "Mozambik",
+   "region": "Afrika",
+   "visa": "kapida_vize",
+   "airports": [
+    "MPM"
+   ]
+  },
+  {
+   "code": "NA",
+   "name": "Namibya",
+   "region": "Afrika",
+   "visa": "kapida_vize",
+   "airports": [
+    "WDH"
+   ]
+  },
+  {
+   "code": "NE",
+   "name": "Nijer",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "NIM"
+   ]
+  },
+  {
+   "code": "NG",
+   "name": "Nijerya",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "LOS",
+    "ABV"
+   ]
+  },
+  {
+   "code": "RW",
+   "name": "Ruanda",
+   "region": "Afrika",
+   "visa": "kapida_vize",
+   "airports": [
+    "KGL"
+   ]
+  },
+  {
+   "code": "ST",
+   "name": "São Tomé ve Príncipe",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "TMS"
+   ]
+  },
+  {
+   "code": "SN",
+   "name": "Senegal",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "DSS"
+   ]
+  },
+  {
+   "code": "SC",
+   "name": "Seyşeller",
+   "region": "Afrika",
+   "visa": "vizesiz",
+   "airports": [
+    "SEZ"
+   ]
+  },
+  {
+   "code": "SL",
+   "name": "Sierra Leone",
+   "region": "Afrika",
+   "visa": "kapida_vize",
+   "airports": [
+    "FNA"
+   ]
+  },
+  {
+   "code": "SO",
+   "name": "Somali",
+   "region": "Afrika",
+   "visa": "kapida_vize",
+   "airports": [
+    "MGQ"
+   ]
+  },
+  {
+   "code": "ZA",
+   "name": "Güney Afrika",
+   "region": "Afrika",
+   "visa": "vizesiz",
+   "airports": [
+    "JNB",
+    "CPT"
+   ]
+  },
+  {
+   "code": "SS",
+   "name": "Güney Sudan",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "JUB"
+   ]
+  },
+  {
+   "code": "SD",
+   "name": "Sudan",
+   "region": "Afrika",
+   "visa": "vizeli",
+   "airports": [
+    "PZU"
+   ]
+  },
+  {
+   "code": "TZ",
+   "name": "Tanzanya",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "DAR",
+    "ZNZ",
+    "JRO"
+   ]
+  },
+  {
+   "code": "TG",
+   "name": "Togo",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "LFW"
+   ]
+  },
+  {
+   "code": "TN",
+   "name": "Tunus",
+   "region": "Afrika",
+   "visa": "vizesiz",
+   "airports": [
+    "TUN"
+   ]
+  },
+  {
+   "code": "UG",
+   "name": "Uganda",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "EBB"
+   ]
+  },
+  {
+   "code": "ZM",
+   "name": "Zambiya",
+   "region": "Afrika",
+   "visa": "e_vize",
+   "airports": [
+    "LUN"
+   ]
+  },
+  {
+   "code": "ZW",
+   "name": "Zimbabve",
+   "region": "Afrika",
+   "visa": "kapida_vize",
+   "airports": [
+    "HRE",
+    "VFA"
+   ]
+  },
+  {
+   "code": "AG",
+   "name": "Antigua ve Barbuda",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "ANU"
+   ]
+  },
+  {
+   "code": "AR",
+   "name": "Arjantin",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "BUE"
+   ]
+  },
+  {
+   "code": "BS",
+   "name": "Bahamalar",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "NAS"
+   ]
+  },
+  {
+   "code": "BB",
+   "name": "Barbados",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "BGI"
+   ]
+  },
+  {
+   "code": "BZ",
+   "name": "Belize",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "BZE"
+   ]
+  },
+  {
+   "code": "BO",
+   "name": "Bolivya",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "VVI",
+    "LPB"
+   ]
+  },
+  {
+   "code": "BR",
+   "name": "Brezilya",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "SAO",
+    "RIO"
+   ]
+  },
+  {
+   "code": "CA",
+   "name": "Kanada",
+   "region": "Amerika",
+   "visa": "vizeli",
+   "airports": [
+    "YTO",
+    "YMQ"
+   ]
+  },
+  {
+   "code": "CL",
+   "name": "Şili",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "SCL"
+   ]
+  },
+  {
+   "code": "CO",
+   "name": "Kolombiya",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "BOG"
+   ]
+  },
+  {
+   "code": "CR",
+   "name": "Kosta Rika",
+   "region": "Amerika",
+   "visa": "vizeli",
+   "airports": [
+    "SJO"
+   ],
+   "note": "Geçerli ABD/Schengen vizesi ile vizesiz"
+  },
+  {
+   "code": "CU",
+   "name": "Küba",
+   "region": "Amerika",
+   "visa": "e_vize",
+   "airports": [
+    "HAV"
+   ],
+   "note": "Turist kartı"
+  },
+  {
+   "code": "DM",
+   "name": "Dominika",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "DOM"
+   ]
+  },
+  {
+   "code": "DO",
+   "name": "Dominik Cumhuriyeti",
+   "region": "Amerika",
+   "visa": "vizeli",
+   "airports": [
+    "PUJ",
+    "SDQ"
+   ],
+   "note": "Geçerli ABD/Schengen/UK vizesi ile vizesiz"
+  },
+  {
+   "code": "EC",
+   "name": "Ekvador",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "UIO",
+    "GYE"
+   ]
+  },
+  {
+   "code": "SV",
+   "name": "El Salvador",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "SAL"
+   ]
+  },
+  {
+   "code": "GD",
+   "name": "Grenada",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "GND"
+   ]
+  },
+  {
+   "code": "GT",
+   "name": "Guatemala",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "GUA"
+   ]
+  },
+  {
+   "code": "GY",
+   "name": "Guyana",
+   "region": "Amerika",
+   "visa": "kapida_vize",
+   "airports": [
+    "GEO"
+   ]
+  },
+  {
+   "code": "HT",
+   "name": "Haiti",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "PAP"
+   ]
+  },
+  {
+   "code": "HN",
+   "name": "Honduras",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "TGU",
+    "SAP"
+   ]
+  },
+  {
+   "code": "JM",
+   "name": "Jamaika",
+   "region": "Amerika",
+   "visa": "vizeli",
+   "airports": [
+    "KIN",
+    "MBJ"
+   ]
+  },
+  {
+   "code": "MX",
+   "name": "Meksika",
+   "region": "Amerika",
+   "visa": "vizeli",
+   "airports": [
+    "MEX",
+    "CUN"
+   ],
+   "note": "Geçerli ABD/Schengen/UK vizesi ile vizesiz"
+  },
+  {
+   "code": "NI",
+   "name": "Nikaragua",
+   "region": "Amerika",
+   "visa": "kapida_vize",
+   "airports": [
+    "MGA"
+   ]
+  },
+  {
+   "code": "PA",
+   "name": "Panama",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "PTY"
+   ]
+  },
+  {
+   "code": "PY",
+   "name": "Paraguay",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "ASU"
+   ]
+  },
+  {
+   "code": "PE",
+   "name": "Peru",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "LIM"
+   ]
+  },
+  {
+   "code": "KN",
+   "name": "Saint Kitts ve Nevis",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "SKB"
+   ]
+  },
+  {
+   "code": "LC",
+   "name": "Saint Lucia",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "UVF"
+   ]
+  },
+  {
+   "code": "VC",
+   "name": "Saint Vincent ve Grenadinler",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "SVD"
+   ]
+  },
+  {
+   "code": "SR",
+   "name": "Surinam",
+   "region": "Amerika",
+   "visa": "e_vize",
+   "airports": [
+    "PBM"
+   ]
+  },
+  {
+   "code": "TT",
+   "name": "Trinidad ve Tobago",
+   "region": "Amerika",
+   "visa": "vizeli",
+   "airports": [
+    "POS"
+   ]
+  },
+  {
+   "code": "US",
+   "name": "Amerika Birleşik Devletleri",
+   "region": "Amerika",
+   "visa": "vizeli",
+   "airports": [
+    "NYC",
+    "MIA",
+    "LAX"
+   ]
+  },
+  {
+   "code": "UY",
+   "name": "Uruguay",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "MVD"
+   ]
+  },
+  {
+   "code": "VE",
+   "name": "Venezuela",
+   "region": "Amerika",
+   "visa": "vizesiz",
+   "airports": [
+    "CCS"
+   ]
+  },
+  {
+   "code": "AU",
+   "name": "Avustralya",
+   "region": "Okyanusya",
+   "visa": "vizeli",
+   "airports": [
+    "SYD",
+    "MEL"
+   ],
+   "note": "Online başvurulu vize"
+  },
+  {
+   "code": "FJ",
+   "name": "Fiji",
+   "region": "Okyanusya",
+   "visa": "vizesiz",
+   "airports": [
+    "NAN"
+   ]
+  },
+  {
+   "code": "KI",
+   "name": "Kiribati",
+   "region": "Okyanusya",
+   "visa": "vizeli",
+   "airports": [
+    "TRW"
+   ]
+  },
+  {
+   "code": "MH",
+   "name": "Marshall Adaları",
+   "region": "Okyanusya",
+   "visa": "vizeli",
+   "airports": [
+    "MAJ"
+   ]
+  },
+  {
+   "code": "FM",
+   "name": "Mikronezya",
+   "region": "Okyanusya",
+   "visa": "vizesiz",
+   "airports": [
+    "PNI"
+   ]
+  },
+  {
+   "code": "NR",
+   "name": "Nauru",
+   "region": "Okyanusya",
+   "visa": "vizeli",
+   "airports": [
+    "INU"
+   ]
+  },
+  {
+   "code": "NZ",
+   "name": "Yeni Zelanda",
+   "region": "Okyanusya",
+   "visa": "vizeli",
+   "airports": [
+    "AKL"
+   ]
+  },
+  {
+   "code": "PW",
+   "name": "Palau",
+   "region": "Okyanusya",
+   "visa": "kapida_vize",
+   "airports": [
+    "ROR"
+   ]
+  },
+  {
+   "code": "PG",
+   "name": "Papua Yeni Gine",
+   "region": "Okyanusya",
+   "visa": "e_vize",
+   "airports": [
+    "POM"
+   ]
+  },
+  {
+   "code": "WS",
+   "name": "Samoa",
+   "region": "Okyanusya",
+   "visa": "vizesiz",
+   "airports": [
+    "APW"
+   ]
+  },
+  {
+   "code": "SB",
+   "name": "Solomon Adaları",
+   "region": "Okyanusya",
+   "visa": "kapida_vize",
+   "airports": [
+    "HIR"
+   ]
+  },
+  {
+   "code": "TO",
+   "name": "Tonga",
+   "region": "Okyanusya",
+   "visa": "kapida_vize",
+   "airports": [
+    "TBU"
+   ]
+  },
+  {
+   "code": "TV",
+   "name": "Tuvalu",
+   "region": "Okyanusya",
+   "visa": "kapida_vize",
+   "airports": [
+    "FUN"
+   ]
+  },
+  {
+   "code": "VU",
+   "name": "Vanuatu",
+   "region": "Okyanusya",
+   "visa": "vizesiz",
+   "airports": [
+    "VLI"
+   ]
+  }
+ ]
+}
